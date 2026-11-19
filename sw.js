@@ -1,11 +1,14 @@
-const CACHE = "bereit-v99";
-const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/maskable-512.png", "./icons/apple-touch-icon.png"];
+// Bereit – Service Worker (generiert von build/build.js; nicht von Hand ändern)
+const CACHE = "bereit-v101-1ad14277";
+const PREFIX = "bereit-";
+const FILES = ["./","./index.html","./manifest.webmanifest","./icons/apple-touch-icon.png","./icons/icon-192.png","./icons/icon-512.png","./icons/maskable-512.png"];
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => Promise.allSettled(FILES.map((f) => c.add(f)))).then(() => self.skipWaiting()));
+  // Jede Datei einzeln und am HTTP-Cache vorbei laden; eine fehlende Datei bricht die Installation nicht ab.
+  e.waitUntil(caches.open(CACHE).then((c) => Promise.allSettled(FILES.map((f) => c.add(new Request(f, { cache: "reload" }))))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", (e) => {
-  // Nur eigene Caches (Präfix "bereit-") aufräumen, fremde Caches bleiben unberührt.
-  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k.startsWith("bereit-") && k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
+  // Nur eigene Caches (Präfix "bereit-") aufräumen. Fremde Caches derselben Origin bleiben unberührt.
+  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k.startsWith(PREFIX) && k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
 });
 function sameOrigin(req) { return new URL(req.url).origin === location.origin; }
 self.addEventListener("fetch", (e) => {
