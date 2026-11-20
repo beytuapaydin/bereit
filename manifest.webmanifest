@@ -1,7 +1,7 @@
 {
  "name": "Bereit – Lern- und Nachschlagehilfe (inoffiziell)",
  "short_name": "Bereit",
- "description": "Unabhängige, kostenlose Lernhilfe für Knoten, Geräte und Prüfungsfragen. Keine offizielle THW-Anwendung.",
+ "description": "Unabhängige, kostenlose Lernhilfe für Knoten, Geräte und Prüfungsfragen. Keine offizielle Anwendung einer Organisation.",
  "lang": "de",
  "start_url": "./index.html",
  "scope": "./",

@@ -1,14 +1,10 @@
 {
- "version": "v101",
- "id": "1ad14277",
- "cache": "bereit-v101-1ad14277",
- "files": {
-  "index.html": "64c77795a9bd6f83420c984870032dc1754f932f3830dd56cc58cb48a1b1276a",
-  "sw.js": "91f63274d4b8a0f06e9d0a3efa1a3ed73f634b65edf27043e8d19ee732ef19cb",
-  "manifest.webmanifest": "e57515002b3d5e2f680688b8965b1fe704ba0221c9d67f4d6122d47da6e398b7",
-  "icons/apple-touch-icon.png": "5f98fab29f41bb50689adb5decbdf6dd72c41f21aa488c2cf021b394a0f12b8b",
-  "icons/icon-192.png": "504957e316143ae1a17058ae4ce528754795f060d102d6f704d455055419c38e",
-  "icons/icon-512.png": "ac53b68b9c896a39b657a0c3326eef011cd9647f8f0066f29d28eeddeec925a1",
-  "icons/maskable-512.png": "f7d397b02b6d1d0e0d6bbddf991d70d09f2b68db72cbdc09305008e3ecd726da"
- }
+ "version": "v153",
+ "build": "v153-praxis-bilder",
+ "base": "v152",
+ "type": "Testbuild, Prototyp",
+ "date": "2026-11-20",
+ "cache": "bereit-v153-praxis",
+ "supersedes": "v152",
+ "funkrufnamen": "Historische Referenz (Stand 19.08.2024), Foto-Transkription, nicht fachlich gegengeprüft; Daten: data/funkrufnamen-ofra.json"
 }
