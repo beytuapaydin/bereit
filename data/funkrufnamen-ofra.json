@@ -1,0 +1,590 @@
+{
+ "schema": "bereit.funkrufnamen/1",
+ "id": "ofra-handout-2024-08-19",
+ "title": "Funkrufnamen nachschlagen",
+ "subtitle": "Handout Ebene OFRA",
+ "status": "historische_referenz",
+ "meta": {
+  "source": {
+   "title": "Handout Funkrufnamen Ebene OFRA",
+   "medium": "Foto eines laminierten Handouts (Nutzerfoto, schräg aufgenommen, teilweise Reflexion und Finger im Bild)",
+   "stand": "2024-08-19",
+   "stand_text": "19.08.2024",
+   "issuer_note": "Zugtrupp OFRA (Angabe im Foto neben dem Stand)",
+   "header_call": "Heros Frankenthal 86/21",
+   "header_call_note": "Im Handout als „RUF“ des Zugtrupps genannt; identisch mit dem hervorgehobenen Eintrag PKW OV 86/21"
+  },
+  "transcription": {
+   "date": "2026-11-20",
+   "method": "manuell aus dem Foto, Originalschreibweisen und Nummern unverändert",
+   "tool": "Claude (Lesung des Fotos), nicht gegengeprüft durch eine Fachperson",
+   "rules": [
+    "Nur eindeutig lesbare Einträge in entries",
+    "Unsichere Einträge nur in review, nicht durchsuchbar",
+    "Keine Ergänzung, Auflösung oder Korrektur von Abkürzungen",
+    "Keine Verwendung der Nummern in Funkübungen"
+   ]
+  },
+  "classification_note": "Die Einteilung in Kategorien (Führung / LuK, Sonderfunktionen, Technischer Zug, Fachgruppen, Andere Organisationen) und die Art (funktion/fahrzeug) stammen von der App, nicht aus dem Handout. Die Überschriften der Blöcke (groups.label) sind Originalschreibweise.",
+  "observations": [
+   "Leere Zellen im Original: Trupp MHP (dritte Zeile), Fachgruppe W (vierte Zeile)",
+   "Der Eintrag PKW OV 86/21 ist im Original rot hervorgehoben",
+   "Die kleine Tabelle „Katastrophenschutz und Polizei“ enthält Rufnamen statt Rufnummern"
+  ],
+  "validity": "Historische Ausbildungsreferenz. Keine bestätigte aktuelle Funkrufnamenliste. Vor praktischer Nutzung muss die zuständige Stelle die Aktualität bestätigen."
+ },
+ "disclaimer": {
+  "de": "Historische Ausbildungsreferenz (Stand 19.08.2024). Keine bestätigte aktuelle Funkrufnamenliste. Nicht als Einsatzrufnamen und nicht für echte Funkübungen verwenden. Vor praktischer Nutzung aktuelle Funkrufnamen und Funkordnung von der zuständigen Stelle bestätigen lassen.",
+  "en": "Historical training reference (as of 19.08.2024). Not a confirmed current list of radio call names. Do not use as operational call signs or in real radio exercises. Have the responsible office confirm current call names and radio rules before practical use."
+ },
+ "categories": [
+  {
+   "id": "fuehrung",
+   "label": "Führung / LuK",
+   "column": "Rufnummer"
+  },
+  {
+   "id": "sonder",
+   "label": "Sonderfunktionen",
+   "column": "Rufnummer"
+  },
+  {
+   "id": "tz",
+   "label": "Technischer Zug",
+   "column": "Rufnummer"
+  },
+  {
+   "id": "fg",
+   "label": "Fachgruppen",
+   "column": "Rufnummer"
+  },
+  {
+   "id": "org",
+   "label": "Andere Organisationen",
+   "column": "Rufname"
+  }
+ ],
+ "groups": [
+  {
+   "id": "thw-struktur",
+   "label": "THW-Einsatzstruktur",
+   "category": "fuehrung",
+   "order": 0,
+   "source_block": "THW-Einsatzstruktur"
+  },
+  {
+   "id": "luk-86",
+   "label": "OFRA LuK 86/00",
+   "category": "fuehrung",
+   "order": 1,
+   "source_block": "OFRA LuK 86/00"
+  },
+  {
+   "id": "sonder-ofra",
+   "label": "Sonderfunktionen OFRA",
+   "category": "sonder",
+   "order": 2,
+   "source_block": "Sonderfunktionen OFRA"
+  },
+  {
+   "id": "zugtrupp",
+   "label": "Zugtrupp",
+   "category": "tz",
+   "order": 3,
+   "source_block": "Zugtrupp"
+  },
+  {
+   "id": "trupp-mhp",
+   "label": "Trupp MHP",
+   "category": "tz",
+   "order": 4,
+   "source_block": "Trupp MHP"
+  },
+  {
+   "id": "wasserfahrzeuge",
+   "label": "Wasserfahrzeuge",
+   "category": "tz",
+   "order": 5,
+   "source_block": "Wasserfahrzeuge"
+  },
+  {
+   "id": "fg-b",
+   "label": "Fachgruppe B",
+   "category": "fg",
+   "order": 6,
+   "source_block": "Fachgruppe B"
+  },
+  {
+   "id": "fg-n",
+   "label": "Fachgruppe N",
+   "category": "fg",
+   "order": 7,
+   "source_block": "Fachgruppe N"
+  },
+  {
+   "id": "fg-wp",
+   "label": "Fachgruppe WP",
+   "category": "fg",
+   "order": 8,
+   "source_block": "Fachgruppe WP"
+  },
+  {
+   "id": "fg-w",
+   "label": "Fachgruppe W",
+   "category": "fg",
+   "order": 9,
+   "source_block": "Fachgruppe W"
+  },
+  {
+   "id": "fg-e",
+   "label": "Fachgruppe E",
+   "category": "fg",
+   "order": 10,
+   "source_block": "Fachgruppe E"
+  },
+  {
+   "id": "org-ks",
+   "label": "Katastrophenschutz und Polizei",
+   "category": "org",
+   "order": 11,
+   "source_block": "Katastrophenschutz und Polizei"
+  }
+ ],
+ "entries": [
+  {
+   "id": "thw-struktur--regionalstelle-luk",
+   "group": "thw-struktur",
+   "label": "Regionalstelle (LuK)",
+   "number": "85/00",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "thw-struktur--ortsverband-luk",
+   "group": "thw-struktur",
+   "label": "Ortsverband (LuK)",
+   "number": "86/00",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "thw-struktur--fuehrungsstelle",
+   "group": "thw-struktur",
+   "label": "Führungsstelle",
+   "number": "10/00",
+   "kind": "funktion",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "thw-struktur--ltr-fuehrungsstelle",
+   "group": "thw-struktur",
+   "label": "Ltr. Führungsstelle",
+   "number": "10/97",
+   "kind": "funktion",
+   "order": 3,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "thw-struktur--zugbefehlsstelle",
+   "group": "thw-struktur",
+   "label": "Zugbefehlsstelle",
+   "number": "21/00",
+   "kind": "funktion",
+   "order": 4,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "luk-86--ortsbeauftragter",
+   "group": "luk-86",
+   "label": "Ortsbeauftragter",
+   "number": "86/91",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "luk-86--leiter-stab",
+   "group": "luk-86",
+   "label": "Leiter Stab",
+   "number": "86/92",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "luk-86--frt-1",
+   "group": "luk-86",
+   "label": "FRT 1",
+   "number": "86/00/1",
+   "kind": "funktion",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "luk-86--frt-2",
+   "group": "luk-86",
+   "label": "FRT 2",
+   "number": "86/00/2",
+   "kind": "funktion",
+   "order": 3,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "luk-86--mtw-ov",
+   "group": "luk-86",
+   "label": "MTW OV",
+   "number": "86/25",
+   "kind": "fahrzeug",
+   "order": 4,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "sonder-ofra--fachberater-thw-1",
+   "group": "sonder-ofra",
+   "label": "Fachberater THW 1",
+   "number": "86/94",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "sonder-ofra--fachberater-thw-2",
+   "group": "sonder-ofra",
+   "label": "Fachberater THW 2",
+   "number": "86/95",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "sonder-ofra--fachberater-bau",
+   "group": "sonder-ofra",
+   "label": "Fachberater Bau",
+   "number": "86/96/BAU",
+   "kind": "funktion",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "sonder-ofra--fachberater-deich",
+   "group": "sonder-ofra",
+   "label": "Fachberater Deich",
+   "number": "86/96/DEICH",
+   "kind": "funktion",
+   "order": 3,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "sonder-ofra--pkw-ov",
+   "group": "sonder-ofra",
+   "label": "PKW OV",
+   "number": "86/21",
+   "kind": "fahrzeug",
+   "order": 4,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "zugtrupp--zugfuehrer",
+   "group": "zugtrupp",
+   "label": "Zugführer",
+   "number": "21/91",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar_teilverdeckt",
+   "note": "Erster Buchstabe im Foto durch Reflexion/Finger teilweise verdeckt; Schreibweise aus dem Zusammenhang und dem Nummernschema 21/91 gelesen"
+  },
+  {
+   "id": "zugtrupp--zugtruppfuehrer",
+   "group": "zugtrupp",
+   "label": "Zugtruppführer",
+   "number": "21/92",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar_teilverdeckt",
+   "note": "Erster Buchstabe im Foto teilweise verdeckt; Zahl 21/92 klar lesbar"
+  },
+  {
+   "id": "zugtrupp--mtw-zugtrupp",
+   "group": "zugtrupp",
+   "label": "MTW Zugtrupp",
+   "number": "21/10",
+   "kind": "fahrzeug",
+   "order": 2,
+   "confidence": "lesbar_teilverdeckt",
+   "note": "Anfang im Foto teilweise verdeckt; Zahl 21/10 klar lesbar"
+  },
+  {
+   "id": "trupp-mhp--truppfuehrer",
+   "group": "trupp-mhp",
+   "label": "Truppführer",
+   "number": "74/91",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "trupp-mhp--mtw-fgr",
+   "group": "trupp-mhp",
+   "label": "MTW FGr",
+   "number": "74/25",
+   "kind": "fahrzeug",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "wasserfahrzeuge--mzab",
+   "group": "wasserfahrzeuge",
+   "label": "MzAB",
+   "number": "36/81",
+   "kind": "fahrzeug",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "wasserfahrzeuge--ponton",
+   "group": "wasserfahrzeuge",
+   "label": "Ponton",
+   "number": "36/83",
+   "kind": "fahrzeug",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "wasserfahrzeuge--mzb",
+   "group": "wasserfahrzeuge",
+   "label": "MzB",
+   "number": "36/85",
+   "kind": "fahrzeug",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "wasserfahrzeuge--schlboot",
+   "group": "wasserfahrzeuge",
+   "label": "SchlBoot",
+   "number": "36/86",
+   "kind": "fahrzeug",
+   "order": 3,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-b--gruppenfuehrer",
+   "group": "fg-b",
+   "label": "Gruppenführer",
+   "number": "22/91",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-b--truppfuehrer",
+   "group": "fg-b",
+   "label": "Truppführer",
+   "number": "22/92/X",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-b--gkw",
+   "group": "fg-b",
+   "label": "GKW",
+   "number": "22/51",
+   "kind": "fahrzeug",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-n--gruppenfuehrer",
+   "group": "fg-n",
+   "label": "Gruppenführer",
+   "number": "24/91",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-n--truppfuehrer",
+   "group": "fg-n",
+   "label": "Truppführer",
+   "number": "24/92/X",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-n--mzgw",
+   "group": "fg-n",
+   "label": "MzGW",
+   "number": "24/55",
+   "kind": "fahrzeug",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-wp--gruppenfuehrer",
+   "group": "fg-wp",
+   "label": "Gruppenführer",
+   "number": "48/91",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-wp--truppfuehrer",
+   "group": "fg-wp",
+   "label": "Truppführer",
+   "number": "48/92/X",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-wp--lkw-lbw",
+   "group": "fg-wp",
+   "label": "LKW-Lbw",
+   "number": "48/43",
+   "kind": "fahrzeug",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-wp--mlw-iv",
+   "group": "fg-wp",
+   "label": "MLW IV",
+   "number": "48/34",
+   "kind": "fahrzeug",
+   "order": 3,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-w--gruppenfuehrer",
+   "group": "fg-w",
+   "label": "Gruppenführer",
+   "number": "36/91",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-w--truppfuehrer",
+   "group": "fg-w",
+   "label": "Truppführer",
+   "number": "36/92/X",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-w--lkw-lkr",
+   "group": "fg-w",
+   "label": "LKW-Lkr",
+   "number": "36/47",
+   "kind": "fahrzeug",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-e--gruppenfuehrer",
+   "group": "fg-e",
+   "label": "Gruppenführer",
+   "number": "32/91",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-e--truppfuehrer",
+   "group": "fg-e",
+   "label": "Truppführer",
+   "number": "32/92/X",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-e--mlw-iii",
+   "group": "fg-e",
+   "label": "MLW III",
+   "number": "32/33",
+   "kind": "fahrzeug",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "fg-e--lkw-lbw",
+   "group": "fg-e",
+   "label": "LKW Lbw",
+   "number": "32/43",
+   "kind": "fahrzeug",
+   "order": 3,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "org-ks--feuerwehr",
+   "group": "org-ks",
+   "label": "Feuerwehr",
+   "number": "Florian",
+   "kind": "funktion",
+   "order": 0,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "org-ks--malteser-hilfsdienst",
+   "group": "org-ks",
+   "label": "Malteser Hilfsdienst",
+   "number": "Johannes",
+   "kind": "funktion",
+   "order": 1,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "org-ks--johanniter-unfallhilfe",
+   "group": "org-ks",
+   "label": "Johanniter Unfallhilfe",
+   "number": "Akkon",
+   "kind": "funktion",
+   "order": 2,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "org-ks--deutsches-rotes-kreuz",
+   "group": "org-ks",
+   "label": "Deutsches Rotes Kreuz",
+   "number": "Rotkreuz/Äskulap",
+   "kind": "funktion",
+   "order": 3,
+   "confidence": "lesbar"
+  },
+  {
+   "id": "org-ks--dlrg",
+   "group": "org-ks",
+   "label": "DLRG",
+   "number": "Pelikan",
+   "kind": "funktion",
+   "order": 4,
+   "confidence": "lesbar"
+  }
+ ],
+ "review": [
+  {
+   "id": "rv-orda",
+   "group": "org-ks",
+   "label_read": "Stadtverwaltung",
+   "value_read": "Orda",
+   "reason": "Sehr kleine Schrift im Foto; der Rufname ist nicht sicher lesbar (mögliche Lesung „Orda“). Nicht in der Suche, nicht für Übungen verwenden.",
+   "status": "manuelle_pruefung"
+  },
+  {
+   "id": "rv-polizei",
+   "group": "org-ks",
+   "label_read": "Polizeiinspektion FT",
+   "value_read": "Lux 30",
+   "reason": "Sehr kleine Schrift im Foto; Rufname und Zahl sind nicht sicher lesbar (mögliche Lesung „Lux 30“). Nicht in der Suche, nicht für Übungen verwenden.",
+   "status": "manuelle_pruefung"
+  }
+ ]
+}
